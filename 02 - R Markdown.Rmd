@@ -3,6 +3,8 @@ title: 'Lesson 2: Getting cozy with R Markdown'
 author: "Patrick Mathias"
 output:
   pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
@@ -118,6 +120,9 @@ In addition to the lesson text documents, there are a few folders that each of t
 The "assets" folder contains images and other files that can be pulled into your R Markdown document. Let's practice embedding an image into your document. The syntax for incorporating an image is `![text for image caption](folder_name/image_file.ext)`. Practice embedding the "git_basic_workflow.png" diagram from the assets folder in the space below:
 
 Now knit the lesson 2 document to whatever format you'd like and open it.
+
+!["Hello"](assets/git_basic_workflow.png)
+
 
 <!---
 Note: updated repo to include all course data
